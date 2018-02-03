@@ -1,13 +1,59 @@
-<!DOCTYPE <!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8" />    
-    <title>contact</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-   
-</head>
-<body>
-    
+<!DOCTYPE html>
+	<html>
+	<head>
+		<meta charset="UTF-8"/>
+		<Title>Contact</Title>
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+		<link rel="stylesheet" type="text/css" href="asstes/css/reset.css">
+	</head>
+	<body>
+
+	<nav class="navigation">
+		<h1 class="nav_name">Sugeesh</h1>
+		
+		<ul class="nav_buttons">
+				<li><a href="index.html">About</a></li>
+				<li><a href="portfolio.html">Portfolio</a></li>
+				<li><a href="Contact.html">Contact</a></li>
+		</ul>
+	</nav>
+
+<div class="content">	
+	<section class="content-01">
+        <div class="about_me"><h2>Contact</h2></div>
+        <div>
+            <form action="/action_page.php">
+                <label for="fname">Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                <label for="email">EMail</label>
+                <input type="email" id="email" name="email" placeholder="Email..">
+
+                <label for="message">Message</label> 
+                <textarea id="messagetxt" name="message" placeholder="Write your message..">
+                </textarea>
+
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+
+		
+	</section>
+
+
+<aside class="connect">
+		<div class="connect_me"><h3>Connect With Me</h3></div>
+		<div class="icons">
+			<i><a href="https://github.com/SugeeshLiyanage"><img src= assets/images/Github.png width="20%" height="20%"></a></i>
+			<i><a href="https://www.linkedin.com/in/sugeeshwebdeveloper/"><img src= assets/images/linkedin.png width="20%" height="20%"></a></i>
+			<i><a href="https://stackoverflow.com/users/8175046/sugeesh"><img src= assets/images/stackoverflow.png width="20%"" height="20%"></a></i>
+		</div>
+	</aside>
+</div>
+
+	<Footer>
+		<p class="copyright">Copyright © 2018 Sugeesh Liyanage</p>
+	</Footer>
+
 </body>
 </html>
